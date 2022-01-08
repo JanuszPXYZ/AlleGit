@@ -15,6 +15,7 @@ struct RepoCell: View {
                 Text(repository.name)
                     .font(.title)
                     .bold()
+                    .foregroundColor(Color("allegroColor"))
                 Spacer()
                 Image(systemName: "chevron.forward.circle")
                     .resizable()
